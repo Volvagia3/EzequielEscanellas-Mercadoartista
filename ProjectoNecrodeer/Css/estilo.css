@@ -1,24 +1,12 @@
-.header {
-  background-color: #966fd6;
-  color: #EEEEEE;
-  position: fixed;
-  z-index: 4000;
-  top: 0;
-  right: 0;
-  left: 0;
-}
+
 
 .background {
-  padding-top: 150px;
+  padding-top: 100px;
   font-family: 'Mochiy Pop One', sans-serif;
   text-align: center;
   background-color: #b289f3;
   margin: 0px;
   padding-bottom: 100px;
-}
-
-nav {
-
 }
 
 nav li {
@@ -211,15 +199,13 @@ input[type=submit]:hover {
 }
 
 .form {
-  border-radius: 10px;
-  width: 500px;
-  padding-left: 600px;
-  margin: 20px;
-  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 500px;
+    margin: 0 auto; 
 }
+
+
 
 .columnone {
   float: left;
@@ -281,7 +267,10 @@ ul {
 /* Todo lo de media query*/
 @media screen and (max-width: 600px) {
   
- 
+ .submit {
+display: flex;
+padding-left: 240px;
+ }
   .background {
     
     text-align: center;
@@ -305,10 +294,6 @@ ul {
     height: 250px;
   }
 
-  .footercontainer {
-    padding-left: 100px;
-  }
-
   .question {
     width: 300px;
     padding-bottom: 100px;
@@ -323,7 +308,7 @@ ul {
   }
 
   .form {
-
+    width: auto;
     padding-left: 0px;
 
   }
@@ -345,5 +330,6 @@ ul {
   p {
     font-size: 50%;
   }
-  
+
+ 
 }
