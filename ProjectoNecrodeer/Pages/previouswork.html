@@ -8,33 +8,65 @@
     <link rel="stylesheet" href="../Css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
 
     <title>Previous Work</title>
 </head>
 
-<body>
+<body class="background">
     <header class="header">
         <h1>Necro Deer</h1>
-        <nav>
-            <!-- Lista Ordenada -->
-            <ul>
-                <li><button class="dropbtn"><a href="../index.html">Home</a></button>
-                 
-                <!-- Products va a mandar a otros lados, por el momento solo a products-->
-                <li class="dropdown">
-                        <button class="dropbtn">Products</button>
-                        <div class="dropdown-content">
-                            <a href="./products.html">All</option>
-                            <a href="./products.html">Clothes</a>
-                            <a href="./products.html">Stickers</a>
-                    </select>
-                    </select></li>
-                <li><button class="dropbtn"><a href="./previouswork.html">Previous work</a></button></li>
-                <li> <button class="dropbtn"><a href="./contact.html"> Contact</button> </a></li>
-                <li><button class="dropbtn"><a href="./faq.html">F.A.Q</a></button></li>
-            </ul>
+        <nav class="navbar navbar-light navbar-expand-lg  fixed-top" style="background-color: #966fd6;">
+            <div class="container-fluid" style="background-color: #966fd6;">
+                <a class="navbar-brand" href="#">Necrodeer</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" style="background-color: #966fd6;">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Necrodeer</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="background-color: #966fd6; ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../ProjectoNecrodeer/Pages/contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../ProjectoNecrodeer/Pages/previouswork.html">Previous
+                                    work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../ProjectoNecrodeer/Pages/faq.html">F.A.Q</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" style="background-color: #966fd6;" >
+                                    <li><a class="dropdown-item" href="#">All</a></li>
+                                    <li><a class="dropdown-item" href="#">Stickers</a></li>
+                                    <li><a class="dropdown-item" href="#">Clothes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn boton" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </nav>
+
     </header>
     <style>
 
@@ -86,6 +118,7 @@
 
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

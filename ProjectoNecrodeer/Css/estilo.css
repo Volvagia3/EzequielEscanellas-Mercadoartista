@@ -8,8 +8,8 @@
   left: 0;
 }
 
-body {
-  padding-top: 220px;
+.background {
+  padding-top: 150px;
   font-family: 'Mochiy Pop One', sans-serif;
   text-align: center;
   background-color: #b289f3;
@@ -18,12 +18,7 @@ body {
 }
 
 nav {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+
 }
 
 nav li {
@@ -31,7 +26,7 @@ nav li {
   font-size: 20px;
   padding: 20px;
   font-family: 'Mochiy Pop One', sans-serif;
-  color: white;
+
 }
 
 /*  Todo esto son temas del dropdown de los bottones y los botones en general--> */
@@ -279,19 +274,16 @@ ul {
 
 }
 
+.boton { Background: #966fd6
+
+}
+
 /* Todo lo de media query*/
 @media screen and (max-width: 600px) {
-  nav li {
-    width: 100%;
-    font-size: 15px;
-  }
-
-  ul {
-    text-align: left;
-  }
-
-  body {
-    padding-top: 450px;
+  
+ 
+  .background {
+    
     text-align: center;
 
   }
