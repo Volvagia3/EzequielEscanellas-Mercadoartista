@@ -68,56 +68,46 @@
 
     </header>
 
-    <section>
+    <section class="margin">
         <span>Please Check the <a href="faq.html">F.A.Q</a></span>
-        <div class="form">
-            <div class="form__order">
-                <div class="columnone">
-                    <label for="name">Name</label>
-                </div>
-                <div class="columntwo">
-                    <input type="text" id="name" name="name" placeholder="Your name..">
-                </div>
-            </div>
-            <div class="form__order">
-                <div class="columnone">
-                    <label for="email">Email</label>
-                </div>
-                <div class="columntwo">
-                    <input type="email" id="email" name="email" placeholder="Your email">
-                </div>
-            </div>
+<!-- Default form contact -->
+<form class="text-center form" action="#!">
 
-            <div class="form__order">
-                <div class="columnone">
-                    <label for="country">Country</label>
-                </div>
-                <div class="columntwo">
-                    <select id="country" name="country">
-                        <option value="usa">USA</option>
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
+    <p class="h4 mb-4">Contact us</p>
 
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-            </div>
-            <div class="form__order">
-                <div class="columnone">
-                    <label for="subject">Subject</label>
-                </div>
-                <div class="columntwo">
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
-                </div>
-                
-            </div>
-            <div class="submit">
-                <!-- Todavia no se como hacer que el botton se quede en el lugar cuando cambio @media-->
-                <input type="submit" value="Submit">
-            </div>
-            </form>
-        </div>
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Subject -->
+    <label>Subject</label>
+    <select class="browser-default custom-select mb-4">
+        <option value="" disabled>Choose option</option>
+        <option value="1" selected>Feedback</option>
+        <option value="2">Report a bug</option>
+        <option value="3">Feature request</option>
+        <option value="4">Feature request</option>
+        <option value="5">Item related question</option>
+    </select>
+
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    </div>
+
+    <!-- Copy -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+    </div>
+
+    <!-- Send button -->
+    <button class="btn-necro btn-block" type="submit">Send</button>
+
+</form>
+<!-- Default form contact -->
     </section>
     <footer class="footercontainer">
 
