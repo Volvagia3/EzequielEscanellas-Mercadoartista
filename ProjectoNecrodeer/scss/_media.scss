@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+    .submit {
+        display: flex;
+        padding-left: 240px;
+    }
+    .background {
+        text-align: center;
+    }
+
+    .dropbtn {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    .imagethumb {
+        display: block;
+        width: 200px;
+        height: 250px;
+    }
+
+    .question {
+        width: 300px;
+        padding-bottom: 100px;
+    }
+
+    .textname {
+        font-size: 20px;
+    }
+
+    .textnamepad {
+        font-size: 20px;
+    }
+
+    .form {
+        width: auto;
+        padding-left: 0px;
+    }
+
+    .columnone {
+        float: left;
+        width: 20%;
+        margin-top: 6px;
+    }
+
+    .columntwo {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+    }
+
+    p {
+        font-size: 50%;
+    }
+}

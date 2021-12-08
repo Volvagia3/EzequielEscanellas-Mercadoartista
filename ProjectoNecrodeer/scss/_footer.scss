@@ -1,0 +1,16 @@
+
+.footercontainer {
+    position: fixed;
+    background-color: #cea3ff;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    &__footertext::after {
+        content: "\a";
+        white-space: pre;
+    }
+    &__email::before {
+        content: "\a";
+        white-space: pre;
+    }
+}
