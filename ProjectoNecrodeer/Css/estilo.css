@@ -4,7 +4,7 @@
   text-align: center;
   background-color: #b289f3;
   margin: 0px;
-  padding-bottom: 100px; }
+  padding-bottom: 50px; }
 
 .container {
   position: relative;
@@ -34,11 +34,8 @@
   background-color: #b289f3;
   padding-left: 50px; }
 
-.container:hover .overlay {
-  opacity: 1; }
-
 .textoverlay {
-  color: white;
+  color: black;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -48,6 +45,64 @@
 
 p {
   font-size: 70%; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  grid-gap: 10px;
+  padding: 10px; }
+  .grid-container > div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px; }
+
+.container-1 {
+  position: relative;
+  width: 100%;
+  float: left; }
+  .container-1 .image {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .container-1:hover .overlay {
+    opacity: 1; }
+
+.container-2 {
+  position: relative;
+  width: 100%;
+  float: left; }
+  .container-2 .image {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .container-2:hover .overlay {
+    opacity: 1; }
+
+.container-3 {
+  position: relative;
+  width: 100%;
+  float: left; }
+  .container-3 .image {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .container-3:hover .overlay {
+    opacity: 1; }
+
+.container-4 {
+  position: relative;
+  width: 100%;
+  float: left; }
+  .container-4 .image {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .container-4:hover .overlay {
+    opacity: 1; }
 
 .row {
   display: flex; }
@@ -64,19 +119,6 @@ p {
 
 ul {
   list-style-type: none; }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  text-align: center;
-  grid-gap: 10px;
-  padding: 10px; }
-  .grid-container > div {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 30px; }
 
 .question {
   padding-top: 40px;
