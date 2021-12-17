@@ -9,6 +9,7 @@
 }
 .textname {
     font-family: 'Shippori Mincho', serif;
+    
 }
 
 .textnamepad {
@@ -22,6 +23,8 @@
     width: 230px;
     height: 300px;
 }
+
+
 
 /* Esto es el texto que aparece arriba de las imagenes de previous works */
 @import "previouswork";
@@ -58,8 +61,6 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
         box-shadow 0.15s ease-in-out;
 }
-
-
 
 
 @import "footer";
