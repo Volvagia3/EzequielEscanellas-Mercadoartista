@@ -1,6 +1,6 @@
 
 .background {
-    padding-top: 100px;
+    padding-top: 150px;
     font-family: "Mochiy Pop One", sans-serif;
     text-align: center;
     background-color: #b289f3;
@@ -68,3 +68,22 @@
 /* Todo lo de media query*/
 
 @import "media";
+
+.brand {
+    max-width: 40%;
+    float: left;
+}
+
+.searchbar {
+    display: inline-block;
+    width: 100px;
+  } 
+
+nav  {
+   border-bottom: 5px solid black;
+   margin-bottom: 400px;
+}
+.contact {
+display: grid;
+justify-content: center;
+}
