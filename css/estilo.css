@@ -39,7 +39,7 @@
   padding: 15px; }
 
 .image_selected img {
-  max-width: 50%; }
+  max-width: 10%; }
 
 /* Esto es el texto que aparece arriba de las imagenes de previous works */
 .overlay {
