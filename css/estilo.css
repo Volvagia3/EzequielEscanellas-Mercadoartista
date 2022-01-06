@@ -8,7 +8,7 @@
   padding-bottom: 50px; }
 
 .textname, .textnamepad {
-  font-family: 'Shippori Mincho', serif; }
+  font-family: "Shippori Mincho", serif; }
 
 .textnamepad {
   font-size: 80%; }
@@ -262,7 +262,8 @@ ul {
 
 .brand {
   max-width: 40%;
-  float: left; }
+  float: left;
+  margin-right: 0px; }
 
 .searchbar {
   display: inline-block;
