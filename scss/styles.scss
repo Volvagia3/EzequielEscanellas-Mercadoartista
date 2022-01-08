@@ -88,3 +88,9 @@ nav {
     width: 600px;
     
 }
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
